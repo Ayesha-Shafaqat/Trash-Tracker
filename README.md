@@ -106,7 +106,3 @@ Place supported `.jpg` or `.png` images in a date-named folder under `backend/sa
 - The default supervisor login is not seeded automatically. See the SQL setup above.
 - `backend/static/` contains uploaded images and generated detections. Preserve it if you need those files after moving or backing up the project.
 - The root `requirements.txt` is for the Python backend only. Each JavaScript app has its own `package.json` and lockfile; install dependencies separately in each app directory.
-
-## GitHub Description
-
-Waste-site monitoring system with YOLO-based satellite image detection, a FastAPI/MySQL backend, a React supervisor dashboard, and an Expo worker app for task assignment and cleanup proof uploads.
