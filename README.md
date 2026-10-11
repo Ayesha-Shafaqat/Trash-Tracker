@@ -12,7 +12,7 @@ Trash Tracker is a waste-site monitoring system that combines a Python/FastAPI b
 
 ## WorkFlow
 
-![Trash Tracker workflow](docs/images/dashboard.png)
+![Trash Tracker workflow](docs/Picture1.png)
 
 ## Project Layout
 
