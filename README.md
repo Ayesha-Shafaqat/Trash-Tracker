@@ -10,6 +10,10 @@ Trash Tracker is a waste-site monitoring system that combines a Python/FastAPI b
 - Use the worker app to view assigned tasks, open a map, and submit a proof photo.
 - Serve detection images, worker proof photos, and profile images from the backend.
 
+## WorkFlow
+
+![Trash Tracker workflow](docs/images/dashboard.png)
+
 ## Project Layout
 
 ```text
