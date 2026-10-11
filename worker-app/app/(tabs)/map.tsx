@@ -18,7 +18,7 @@ import { useLocalSearchParams, useRouter, useFocusEffect } from 'expo-router';
 // =====================================================================
 // 1. CONSTANTS
 // =====================================================================
-const API_BASE_URL = "http://192.168.0.105:8000";
+const API_BASE_URL = "http://192.168.152.248:8000";
 
 // =====================================================================
 // 2. HELPERS
@@ -424,7 +424,7 @@ export default function ExploreScreen() {
             <Image 
               source={{ 
                 uri: selectedTask.image_url 
-                  ? selectedTask.image_url.replace("127.0.0.1", "192.168.0.105") 
+                  ? selectedTask.image_url.replace("127.0.0.1", "192.168.152.248") 
                   : null 
               }}
               style={styles.cardImage}

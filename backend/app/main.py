@@ -347,9 +347,13 @@ class WorkerLogin(BaseModel):
     phone: str
     password: str
 
+
+
+
 @app.post("/login")
 def login_supervisor(req: LoginRequest, db: Session = Depends(get_db)):
     # Validates supervisor credentials for the web dashboard
+     
     admin = db.query(models.Supervisor).filter(models.Supervisor.email == req.email).first()
     
     if not admin or admin.password_hash != req.password:

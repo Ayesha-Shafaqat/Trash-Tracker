@@ -13,7 +13,7 @@ import * as ImagePicker from 'expo-image-picker';
 import { Camera, Upload, ArrowLeft } from 'lucide-react-native';
 
 // --- Configuration ---
-const API_BASE_URL = "http://192.168.0.105:8000"; 
+const API_BASE_URL = "http://192.168.152.248:8000"; 
 
 /**
  * UploadProofScreen

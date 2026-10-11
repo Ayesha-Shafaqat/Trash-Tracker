@@ -21,7 +21,7 @@ function GoogleMapView({ filteredData, selectedLocation, setSelectedLocation, se
     markerData.forEach((trash) => {
       bounds.extend({ lat: trash.latitude, lng: trash.longitude });
     });
-    mapRef.current.fitBounds(bounds);
+    // mapRef.current.fitBounds(bounds);
   }, [dataString]);
 
   useEffect(() => {

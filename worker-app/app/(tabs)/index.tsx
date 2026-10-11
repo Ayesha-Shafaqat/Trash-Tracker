@@ -34,7 +34,7 @@ const getTodayStr = () => new Date().toISOString().split('T')[0];
 export default function MyTasksScreen() {
   // --- Navigation & Constants ---
   const router = useRouter(); 
-  const API_BASE_URL = "http://192.168.0.105:8000";
+  const API_BASE_URL = "http://192.168.152.248:8000";
 
   // --- Core State Variables ---
   const [tasks, setTasks] = useState<any[]>([]);
@@ -181,7 +181,7 @@ export default function MyTasksScreen() {
   const renderTaskCard = ({ item }: { item: any }) => {
     // Replace localhost IP with actual backend IP for images
     const imageUrl = item.image_url 
-      ? item.image_url.replace("127.0.0.1", "192.168.0.105") 
+      ? item.image_url.replace("127.0.0.1", "192.168.152.248") 
       : null;
       
     return (

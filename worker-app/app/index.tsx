@@ -29,7 +29,7 @@ export default function WorkerAuthScreen() {
   const [password, setPassword] = useState('');
 
   // --- Configuration ---
-  const API_BASE_URL = "http://192.168.0.105:8000"; 
+  const API_BASE_URL = "http://192.168.152.248:8000"; 
 
   // --- Action Handlers ---
 
